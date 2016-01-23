@@ -1,5 +1,5 @@
 # here we go!
-PATH=$PATH:/usr/local/bin/
+PATH=$PATH:/usr/local/bin/:/opt/telegraf
 sparrow 1>/dev/null || exit 1
 sparrow project create foo
 sparrow check add foo tele

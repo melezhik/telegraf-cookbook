@@ -26,9 +26,9 @@ suites:
       - recipe[telegraf::default]
       - recipe[sparrow]
     attributes:
-    sparrow:
-      plugin:
-        list: [
-          'outth-telegraf'
-        ]
+     sparrow:
+       plugin:
+         list: [
+           'outth-telegraf'
+         ]
 
