@@ -24,4 +24,11 @@ suites:
   - name: default
     run_list:
       - recipe[telegraf::default]
+      - recipe[sparrow]
     attributes:
+    sparrow:
+      plugin:
+        list: [
+          'outth-telegraf'
+        ]
+
